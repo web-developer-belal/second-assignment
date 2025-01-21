@@ -76,7 +76,10 @@ header .logo img {
   width: 50px;
   margin-right: 10px;
 }
-
+.navbar-brand{
+    font-weight: bold;
+    font-size: 32px;
+}
 header nav ul {
   display: flex;
   list-style: none;
@@ -86,16 +89,43 @@ header nav ul li {
   margin: 0 15px;
 }
 
-header nav ul li a {
-  color: #333;
-  font-weight: bold;
+
+header nav ul .one a{
+    color:orange;
+    font-weight: normal;
+    font-weight: 600;
+}
+header nav ul .two a{
+    color:skyblue;
+    font-weight: normal;
+}
+header nav ul .three a{
+    color:#05D4DF;
+    font-weight: normal;
+}
+header nav ul .four a{
+    color:#5D58EF;
+    font-weight: normal;
 }
 
 header .contact-btn {
-  background: #ff7a00;
+  background: orange;
   color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  min-width:140px;
+  height: 40px;
+  padding:10px;
+  
+}
+
+.toggle-icon{
+    border: 0;
+    outline: none;
+    display: none;
+    background: transparent;
 }
 
 /* Hero Section */
